@@ -6,24 +6,19 @@ func MergeSortLoop(arr []int) {
 	// 存储已经排序好的序列
 	q := make(queue, 0, len(arr))
 	// 初始化为arr中的每个单独的值
-	for i := 0; i < len(arr); i++ {
+	for i := range arr {
 		q.push(i, i)
 	}
 
 	for q.len() > 1 {
-		var isEven bool // 确定最后是否有一部pop push
 		length := q.len()
-		if length%2 == 0 {
-			isEven = true
-		} else {
-			isEven = false
-		}
+		isEven := length%2 == 0 // 确定最后是否有一部pop push
 
 		for i := 0; i < length/2; i++ {
-			start1, end1, _ := q.pop()
-			_, end2, _ := q.pop()
-			Merge(arr, start1, end1, end2)
-			q.push(start1, end2)
+			start, middle, _ := q.pop()
+			_, end, _ := q.pop()
+			Merge(arr, start, middle, end)
+			q.push(start, end)
 		}
 
 		if !isEven {
