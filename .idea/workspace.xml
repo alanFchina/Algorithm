@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e8b1fca-ce19-45f5-9ff5-f04716db4ef8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/test/t.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/t.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/剑指offer/03二维数组中的查找.go" beforeDir="false" afterPath="$PROJECT_DIR$/剑指offer/03二维数组中的查找.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="01插入排序.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/base_algorithm/01插入排序.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="panic.go" pinned="false" current-in-tab="false">
+        <entry file="file://F:/Software/Go/src/runtime/panic.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="587" selection-start-line="587" selection-end-line="587" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01插入排序_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base_algorithm/01插入排序_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="580">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testing.go" pinned="false" current-in-tab="false">
+        <entry file="file://F:/Software/Go/src/testing/testing.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="727" selection-start-line="727" selection-end-line="727" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03二维数组中的查找.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/剑指offer/03二维数组中的查找.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="978">
+              <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="03二维数组中的查找_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/剑指offer/03二维数组中的查找_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-87" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="t.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/t.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="F:\Software\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/base_algorithm/01二分查找.go" />
+        <option value="$PROJECT_DIR$/test/t.go" />
+        <option value="$PROJECT_DIR$/剑指offer/03二维数组中的查找.go" />
+        <option value="$PROJECT_DIR$/base_algorithm/01插入排序_test.go" />
+        <option value="$PROJECT_DIR$/base_algorithm/01插入排序.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="281" />
+    <option name="y" value="150" />
+    <option name="width" value="1183" />
+    <option name="height" value="901" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="base_algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="剑指offer" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.TestInsertSort in Algorithm/base_algorithm">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="Algorithm" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+    </configuration>
+    <configuration name="go build t.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <working_directory value="E:\Go\src\Algorithm" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test/t.go" />
+    </configuration>
+    <configuration name="TestArraySearch in Algorithm/剑指offer" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <working_directory value="$PROJECT_DIR$/剑指offer" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="Algorithm/剑指offer" />
+      <pattern value="^TestArraySearch$" />
+    </configuration>
+    <configuration name="TestInsertSort in Algorithm/base_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algorithm" />
+      <working_directory value="$PROJECT_DIR$/base_algorithm" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="Algorithm/base_algorithm" />
+      <pattern value="^TestInsertSort$" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="Algorithm" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build t.go" />
+      <item itemvalue="Go Test.TestArraySearch in Algorithm/剑指offer" />
+      <item itemvalue="Go Test.TestInsertSort in Algorithm/base_algorithm" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestInsertSort in Algorithm/base_algorithm" />
+        <item itemvalue="Go Test.TestArraySearch in Algorithm/剑指offer" />
+        <item itemvalue="Go Build.go build t.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestArraySearch_in_Algorithm_剑指offer - 2018.09.18 at 10h 55m 10s.xml">
+      <configuration name="TestArraySearch in Algorithm/剑指offer" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInsertSort_in_Algorithm_base_algorithm - 2018.09.18 at 11h 05m 50s.xml">
+      <configuration name="TestInsertSort in Algorithm/base_algorithm" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInsertSort_in_Algorithm_base_algorithm - 2018.09.18 at 11h 06m 41s.xml">
+      <configuration name="TestInsertSort in Algorithm/base_algorithm" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInsertSort_in_Algorithm_base_algorithm - 2018.09.18 at 11h 07m 36s.xml">
+      <configuration name="TestInsertSort in Algorithm/base_algorithm" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInsertSort_in_Algorithm_base_algorithm - 2018.09.18 at 11h 09m 58s.xml">
+      <configuration name="TestInsertSort in Algorithm/base_algorithm" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInsertSort_in_Algorithm_base_algorithm - 2018.09.18 at 11h 10m 11s.xml">
+      <configuration name="TestInsertSort in Algorithm/base_algorithm" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInsertSort_in_Algorithm_base_algorithm - 2018.09.18 at 11h 10m 34s.xml">
+      <configuration name="TestInsertSort in Algorithm/base_algorithm" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInsertSort_in_Algorithm_base_algorithm - 2018.09.18 at 11h 11m 05s.xml">
+      <configuration name="TestInsertSort in Algorithm/base_algorithm" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestInsertSort_in_Algorithm_base_algorithm - 2018.09.18 at 11h 13m 37s.xml">
+      <configuration name="TestInsertSort in Algorithm/base_algorithm" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14860515" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24758843" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.114683814" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/base_algorithm/01插入排序_test.go</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="5" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/t.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指offer/03二维数组中的查找.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="978">
+          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/剑指offer/03二维数组中的查找_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87" />
+      </provider>
+    </entry>
+    <entry file="file://F:/Software/Go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="587" selection-start-line="587" selection-end-line="587" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/Software/Go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="727" selection-start-line="727" selection-end-line="727" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_algorithm/01插入排序_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base_algorithm/01插入排序.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

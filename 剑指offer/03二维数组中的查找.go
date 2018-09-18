@@ -34,7 +34,7 @@ func ArraySearch(arr [][]int, searched int) bool {
 		}
 	} else if key < searched {
 		// 删除arr的第一行
-		arr = arr[1:rowNum]
+		arr = arr[1:]
 	}
 	return ArraySearch(arr, searched)
 }
