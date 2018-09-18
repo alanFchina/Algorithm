@@ -25,7 +25,7 @@ func MergeSortLoop(arr []int) {
 			Merge(arr, start1, end1, end2)
 			q.push(start1, end2)
 		}
-		
+
 		if !isEven {
 			start, end, _ := q.pop()
 			q.push(start, end)
@@ -41,6 +41,8 @@ type value struct {
 	start, end int
 }
 
+// 为slice这种重命名的结构添加方法, 涉及到修改原数据也要用指针接收者
+// 原本以为因为参数传递的时候不用考虑slice指针, 所以接收者也一样(这是错的)
 func (q *queue) push(start, end int) {
 	*q = append(*q, value{start, end})
 }
