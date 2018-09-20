@@ -15,7 +15,8 @@ type heap []int
 func BuildMaxHeap(arr []int) heap {
 	h := heap(arr)
 	for i := h.parent(len(h) - 1); i >= 0; i-- {
-		h.maxHeapify(i)
+		// h.maxHeapify(i)     //递归实现
+		h.maxHeapifyLoop(i) // 循环实现
 	}
 	return h
 }
@@ -45,6 +46,26 @@ func (h *heap) maxHeapify(i int) {
 	if largest != i {
 		(*h)[i], (*h)[largest] = (*h)[largest], (*h)[i]
 		h.maxHeapify(largest)
+	}
+}
+
+func (h *heap) maxHeapifyLoop(i int) {
+	for {
+		largest := i
+		l := h.left(i)
+		if l < len(*h) && (*h)[l] > (*h)[i] {
+			largest = l
+		}
+		r := h.right(i)
+		if r < len(*h) && (*h)[r] > (*h)[largest] {
+			largest = r
+		}
+		if largest != i {
+			(*h)[i], (*h)[largest] = (*h)[largest], (*h)[i]
+			i = largest
+		} else {
+			break
+		}
 	}
 }
 
