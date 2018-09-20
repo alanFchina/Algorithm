@@ -20,7 +20,7 @@ func QuickSortRecursion(arr []int, start, end int) {
 }
 
 func QuickSortRecursionRandom(arr []int, start, end int) {
-		if start >= end {
+	if start >= end {
 		return
 	}
 
@@ -43,7 +43,7 @@ func Partition(arr []int, start, end int) int {
 
 // 最常见的优化方法为随机化, 在分割过程中交换随机的一个元素和第一个元素
 // 期望运行时间为O(nlgn)
-// 对于数组中所有的数都是同一个值, 同样也会存在时间复杂度为n²的情况
+// 对于数组中所有的数都是同一个值, 同样也会存在时间复杂度为n²的情况, 当然也有其他方法改善这种情况
 func RandomPartition(arr []int, start, end int) int {
 	r := rand.Intn(end-start+1) + start
 	arr[start], arr[r] = arr[r], arr[start]
