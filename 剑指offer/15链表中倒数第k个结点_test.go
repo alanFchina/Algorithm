@@ -10,10 +10,10 @@ func TestFindKthToTail(t *testing.T) {
 		k      int
 		wanted *ListNode
 	}{
-		{NewListFindK(0), 1, nil},
-		{NewListFindK(1), 1, &ListNode{1, nil}},
-		{NewListFindK(1), 2, nil},
-		{NewListFindK(10), 9, &ListNode{9, nil}},
+		{NewListInReverseOrder(0), 1, nil},
+		{NewListInReverseOrder(1), 1, &ListNode{1, nil}},
+		{NewListInReverseOrder(1), 2, nil},
+		{NewListInReverseOrder(10), 9, &ListNode{9, nil}},
 	}
 	for i, v := range cases {
 		result := FindKthToTail(v.head, v.k)
@@ -27,7 +27,7 @@ func TestFindKthToTail(t *testing.T) {
 	}
 }
 
-func NewListFindK(n int) *ListNode {
+func NewListInReverseOrder(n int) *ListNode {
 	var head *ListNode
 	var tail *ListNode
 	for i := 0; i < n; i++ {
