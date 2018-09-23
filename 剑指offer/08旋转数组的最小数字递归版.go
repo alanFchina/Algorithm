@@ -11,11 +11,7 @@ func MinNumberRecursion(arr []int) int {
 	}
 
 	if length == 2 {
-		if arr[0] <= arr[1] {
-			return arr[0]
-		} else {
-			return arr[1]
-		}
+		return MinInOrder(arr)
 	}
 
 	mid := length / 2
