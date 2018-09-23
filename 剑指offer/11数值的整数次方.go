@@ -12,7 +12,7 @@ func Power(base float64, exponent int) float64 {
 	}
 	result := Power(base, exponent>>1)
 	result *= result
-	if exponent & 0x1 == 1 {
+	if exponent&0x1 == 1 {
 		result *= base
 	}
 	return result
