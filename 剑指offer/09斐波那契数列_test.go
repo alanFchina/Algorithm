@@ -4,8 +4,7 @@ import "testing"
 
 func TestFibonacci(t *testing.T) {
 	cases := []struct {
-		input int
-		wanted int
+		input, wanted int
 	} {
 		{
 			input: 0,
