@@ -8,6 +8,10 @@ func TestMinNumber(t *testing.T) {
 		wanted int
 	}{
 		{
+			input:[]int{0},
+			wanted:0,
+		},
+		{
 			input:  []int{1, 0, 1, 1, 1},
 			wanted: 0,
 		},
@@ -30,7 +34,12 @@ func TestMinNumber(t *testing.T) {
 	}
 	for i, v := range cases {
 		if result := MinNumber(v.input); result != v.wanted {
-			t.Errorf("第%d个测试用例失败, 期望:%d, 返回%d", i, v.wanted, result)
+			t.Errorf("循环版:第%d个测试用例失败, 期望:%d, 返回%d", i, v.wanted, result)
+		}
+	}
+	for i, v := range cases {
+		if result := MinNumberRecursion(v.input); result != v.wanted {
+			t.Errorf("递归版:第%d个测试用例失败, 期望:%d, 返回%d", i, v.wanted, result)
 		}
 	}
 }

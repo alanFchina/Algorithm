@@ -2,6 +2,7 @@ package 剑指offer
 
 import (
 	"math"
+	"fmt"
 )
 
 // 题目: 把一个数组最开始的若干个元素搬到数组的末尾, 我们称之为数组的旋转.
@@ -26,6 +27,8 @@ func MinNumber(arr []int) int {
 			index1 = indexMid
 		} else if arr[indexMid] <= arr[index2] {
 			index2 = indexMid
+		} else {
+			fmt.Println("111111")
 		}
 	}
 	return arr[indexMid]
