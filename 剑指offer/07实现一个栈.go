@@ -3,7 +3,6 @@ package 剑指offer
 // 栈
 type stack struct {
 	vals []int
-	top  int
 	size int
 }
 
