@@ -30,3 +30,11 @@ func (s *stack) Pop() (int, bool) {
 	s.vals = s.vals[:length-1]
 	return topVal, true
 }
+
+func (s *stack) Top() (int, bool) {
+	length := len(s.vals)
+	if length == 0 {
+		return 0, false
+	}
+	return s.vals[length-1], true
+}
