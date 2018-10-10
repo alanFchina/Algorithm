@@ -12,6 +12,7 @@ func Permutation(s string) {
 	// permutationLoop([]byte(s))
 }
 
+// 递归版
 func permutation(c []byte, start int) {
 	if start == len(c)-1 {
 		fmt.Printf("%c\n", c)
@@ -24,6 +25,7 @@ func permutation(c []byte, start int) {
 	}
 }
 
+// 循环版
 func permutationLoop(c []byte) {
 	for i := 0; i < len(c); i++ {
 		for j := i; j < len(c); j++ {
