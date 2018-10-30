@@ -159,7 +159,89 @@ func (T *RBTree) rightRotate(y *RBNode) {
 }
 
 func (T *RBTree) Delete(n *RBNode) {
+	row_color := n.Color
+	rep_node := T.nil
+	if n.Right == T.nil && n.Left == T.nil {
+		T.replace(n, T.nil)
+	} else if n.Right == T.nil {
+		rep_node = n.Left
+		T.replace(n, n.Left)
+	} else if n.Left == T.nil {
+		T.replace(n, n.Right)
+		rep_node = n.Right
+	} else {
+		minNode := n.Right.Min()
+		if minNode != n.Right {
+			c := row_color
+			row_color = minNode.Color
+			minNode.Color = c
+			rep_node = minNode.Right
+			minNode.Parent.Left = minNode.Right
+			minNode.Right = n.Right
+			n.Right.Parent = minNode
+		}
+		T.replace(n, minNode)
+		minNode.Left = n.Left
+	}
+	if row_color == black {
+		T.deleteFixUp(rep_node)
+	}
+}
 
+func (T *RBTree) deleteFixUp(x *RBNode) {
+	for T.root != x && x.Color == black {
+		if x == x.Parent.Left {
+			if x.Parent.Right.Color == red {
+				x = x.Parent
+				x.Color = red
+				x.Right.Color = black
+			} else if x.Parent.Right.Color == black {
+				r := x.Parent.Right
+				if r.Right.Color == black {
+					T.rightRotate(r)
+					r.Parent.Color = black
+					r.Color = red
+				}
+				T.leftRotate(x.Parent)
+				r.Color = x.Parent.Color
+				x.Parent.Color = black
+				r.Right.Color = black
+			}
+		} else {
+			if x.Parent.Left.Color == red {
+				x = x.Parent
+				x.Color = red
+				x.Left.Color = black
+			} else if x.Parent.Left.Color == black {
+				r := x.Parent.Left
+				if r.Left.Color == black {
+					T.leftRotate(r)
+					r.Parent.Color = black
+					r.Color = red
+				}
+				T.rightRotate(x.Parent)
+				r.Color = x.Parent.Color
+				x.Parent.Color = black
+				r.Left.Color = black
+			}
+		}
+
+	}
+
+	x.Color = black
+}
+
+func (T *RBTree) replace(n1 *RBNode, n2 *RBNode) {
+	if T.root == n1 {
+		T.root = n2
+	} else {
+		if n1.Parent.Left == n1 {
+			n1.Parent.Left = n2
+		} else {
+			n1.Parent.Right = n2
+		}
+	}
+	n1.Parent = n1.Parent
 }
 
 func (T *RBTree) Min() *RBNode {
@@ -180,6 +262,14 @@ func (T *RBTree) Max() *RBNode {
 	this := T.root
 	for this.Right != T.nil {
 		this = this.Right
+	}
+	return this
+}
+
+func (N *RBNode) Min() *RBNode {
+	this := N
+	for this.Left != nil {
+		this = this.Left
 	}
 	return this
 }

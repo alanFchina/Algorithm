@@ -72,3 +72,5 @@ func (h *heap) left(i int) int {
 func (h *heap) right(i int) int {
 	return 2*i + 2
 }
+
+
