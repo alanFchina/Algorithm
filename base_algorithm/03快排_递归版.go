@@ -13,9 +13,9 @@ func QuickSortRecursion(arr []int, start, end int) {
 		return
 	}
 
-	middle := Partition(arr, start, end)
-	QuickSortRecursion(arr, start, middle-1)
-	QuickSortRecursion(arr, middle+1, end)
+	mid := Partition(arr, start, end)
+	QuickSortRecursion(arr, start, mid-1)
+	QuickSortRecursion(arr, mid+1, end)
 
 }
 
